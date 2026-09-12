@@ -11,8 +11,7 @@ const Nav=() => {
        <nav className='sticky top-0 bg-white shadow-nd'>
             <div className='flex  items-center justify-between px-5 py-4m '>
 
-                  
-
+                {/* md screen er choto hole dekhabe */}
         <button
           className="md:hidden"
           onClick={() => setIsOpen(!isOpen)}
@@ -20,7 +19,7 @@ const Nav=() => {
           <RxHamburgerMenu size={25} />
         </button>
 
-        {/* dextop */}
+      {/* logo ,... */}
 
                 <div className='text-2xl'> 
                     
